@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Puzzle</title>
+        <meta charset="UTF-8">
+               
+        <script src="apps/main.js"></script> 
+        
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+        <div align="center">
+            <h2>Want to play a game?</h2>
+            
+                   
+            <p></p>
+            <form name="input" onsubmit ="return GetElements(this);" method="post">
+            <table align = "center">
+                <tr>
+                  <td><input type="text" name="1" value ="" ></td>
+                  <td><input type="text" name="2" value ="" ></td>
+                  <td><input type="text" name="3" value ="" ></td>
+                  <td><input type="text" name="4" value ="" ></td>
+                </tr>
+                <tr>
+                  <td><input type="text" name="5" value ="" ></td>
+                  <td><input type="text" name="6" value ="" ></td>
+                  <td><input type="text" name="7" value ="" ></td>
+                  <td><input type="text" name="8" value ="" ></td>
+                </tr>
+                <tr>
+                  <td><input type="text" name="9" value ="" ></td>
+                  <td><input type="text" name="10" value ="" ></td>
+                  <td><input type="text" name="11" value ="" ></td>
+                  <td><input type="text" name="12" value ="" ></td>
+                </tr>
+                <tr>
+                  <td><input type="text" name="13" value ="" ></td>
+                  <td><input type="text" name="14" value ="" ></td>
+                  <td><input type="text" name="15" value ="" ></td>
+                  <td><input type="text" name="16" value ="" ></td>
+                </tr>
+               
+              </table>
+              
+            </form>
+            
+            <p></p>
+            
+            
+            <input type="submit" value="Submit Answer" name="submit" onclick="return GetElements(this);">
+            <input type="reset" value="Reset" name="reset" onclick="return resetForm(this);">
+        </div>
+    </body>
+</html>
